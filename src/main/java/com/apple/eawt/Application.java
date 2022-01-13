@@ -22,6 +22,8 @@
 
 package com.apple.eawt;
 
+import java.awt.*;
+
 public class Application
 {
     public static Application getApplication() { return null; }
@@ -149,5 +151,7 @@ public class Application
      */
     @java.lang.Deprecated
     public static java.awt.Point getMouseLocationOnScreen() { return null; }
+
+    public void requestToggleFullScreen(final Window window) {}
 }
 
