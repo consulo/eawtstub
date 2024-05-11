@@ -15,6 +15,17 @@
 	<artifactId>eawtstub</artifactId>
 	<version>2-SNAPSHOT</version>
 
+	<repositories>
+		<repository>
+			<id>consulo</id>
+			<url>https://maven.consulo.io/repository/snapshots/</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>interval:60</updatePolicy>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<properties>
 		<java.level>1.6</java.level>
 	</properties>
