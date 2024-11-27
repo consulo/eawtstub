@@ -27,6 +27,6 @@
     </repositories>
 
     <properties>
-        <java.level>1.6</java.level>
+        <java.level>1.8</java.level>
     </properties>
 </project>
