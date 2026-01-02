@@ -13,7 +13,7 @@
 
     <groupId>consulo.internal</groupId>
     <artifactId>eawtstub</artifactId>
-    <version>3-SNAPSHOT</version>
+    <version>3.0</version>
 
     <repositories>
         <repository>
